@@ -1,0 +1,21 @@
+.dashboard-main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+
+    .dashboard-content {
+        padding: 2rem;
+    }
+
+    .card {
+        grid-column: span 1;
+
+        .card-img-top {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+        }
+
+
+    }
+}

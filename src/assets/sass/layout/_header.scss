@@ -1,0 +1,33 @@
+header {
+    box-shadow: 5px 1px 1px 0px rgb(0 60 118 / 10%);
+
+    .navbar {
+        max-height: 103.19px;
+    }
+
+    .cci-nav {
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        max-width: 211.5px;
+    }
+
+    .cci-nav-item {
+        border-bottom: 2px solid transparent;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+        a {
+            color: $cci-grey;
+            font-size: 1.125em;
+            text-decoration: none;
+            line-height: 100px;
+        }
+
+        &:hover {
+            border-bottom: 2px solid $cci-red;
+        }
+    }
+}

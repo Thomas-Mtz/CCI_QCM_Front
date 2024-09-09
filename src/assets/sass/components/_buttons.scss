@@ -1,0 +1,15 @@
+.cci-primary-btn {
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 1px solid $cci-red;
+    color: $cci-red;
+    border-radius: $cci-radius;
+    padding: 7px 20px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $cci-red;
+        color: white;
+    }
+}

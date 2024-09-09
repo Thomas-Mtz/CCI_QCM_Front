@@ -1,0 +1,45 @@
+.admin-sidebar {
+    width: 300px;
+    // height: 100vh;
+    color: rgb(255, 255, 255);
+    background-color: $cci-grey;
+
+    .admin-sidebar-head {
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid $cci-grey;
+
+        i {
+            font-size: 36px;
+        }
+
+        h2 {
+            margin: 0;
+        }
+    }
+
+    .admin-sidebar-nav {
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            i {
+                font-size: 20px;
+            }
+
+            a {
+                font-size: 16px;
+            }
+        }
+
+        .cci-nav-item {
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .cci-nav-item:hover {
+            background-color: $cci-red;
+            color: white;
+        }
+    }
+}

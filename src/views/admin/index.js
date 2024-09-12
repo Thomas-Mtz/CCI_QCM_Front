@@ -6,6 +6,7 @@ import UserAdd from "./User/UserAdd.vue";
 import QCMAdd from "./Qcm/QCMAdd.vue";
 import QCMEdit from "./Qcm/QCMEdit.vue";
 import QCMIndex from "./Qcm/QCMIndex.vue";
+import IndexCDF from "./CDF/IndexCDF.vue";
 
 export {
   AdminLayout,
@@ -16,4 +17,5 @@ export {
   QCMAdd,
   QCMEdit,
   QCMIndex,
+  IndexCDF,
 };

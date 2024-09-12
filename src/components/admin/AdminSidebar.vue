@@ -35,6 +35,7 @@
             </li>
           </ul>
         </li>
+        <!-- NAV QCM -->
         <li class="nav-item dropdown py-1 cci-nav-item">
           <a
             class="nav-link dropdown-toggle"
@@ -61,6 +62,37 @@
             </li>
           </ul>
         </li>
+        <!-- _______ -->
+        <!-- NAV Centre de formation -->
+        <li class="nav-item dropdown py-1 cci-nav-item">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="bi bi-person mx-2"></i>
+            Centres de formation
+          </a>
+          <ul class="dropdown-menu">
+            <router-link class="router-link" to="/cdf/index">
+              <li>
+                <a class="dropdown-item" href="#">Liste des CDF</a>
+              </li>
+            </router-link>
+            <li>
+              <a class="dropdown-item" href="#">Créer un CDF</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Modifier un CDF</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Suprimer un CDF</a>
+            </li>
+          </ul>
+        </li>
+        <!-- ________________________ -->
       </ul>
     </nav>
   </aside>

@@ -25,6 +25,7 @@ import {
   QCMAdd,
   QCMEdit,
   QCMIndex,
+  IndexCDF,
 } from "../views/admin";
 
 const router = createRouter({
@@ -102,6 +103,11 @@ const router = createRouter({
           path: "/qcm/add/",
           name: "QcmAdd",
           component: QCMAdd,
+        },
+        {
+          path: "/cdf/index",
+          name: "IndexCDF",
+          component: IndexCDF,
         },
       ],
     },
